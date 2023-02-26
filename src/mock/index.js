@@ -28,7 +28,7 @@ let friendList = Mock.mock(
         },
         // {
         //     img: "",
-        //     name: "小毛",
+        //     name: "小毛（测试）",
         //     detail: "我是小毛",
         //     lastMsg: "dada dw ertgthy j uy",
         //     id: "1003",
@@ -37,7 +37,7 @@ let friendList = Mock.mock(
         // },
         // {
         //     img: "",
-        //     name: "小王",
+        //     name: "小王（测试）",
         //     detail: "我是小王",
         //     lastMsg: "大萨达萨达所大大萨达",
         //     id: "1004",

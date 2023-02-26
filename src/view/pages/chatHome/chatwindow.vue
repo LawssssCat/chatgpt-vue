@@ -213,7 +213,11 @@ export default {
         this.sendMsg(chatGPT);
         chatgpt(data).then((res) => {
           this.isSend = false;
-          this.chatList[this.chatList.length-1].msg = res.choices[0].text;
+          if(res.error) {
+            this.chatList[this.chatList.length-1].msg = "🚨"+res.error.text;
+          } else {
+            this.chatList[this.chatList.length-1].msg = res.choices[0].text;
+          }
         });
 
 

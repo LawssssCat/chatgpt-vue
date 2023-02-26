@@ -3,7 +3,7 @@
     <div class="chatLeft">
       <div class="title">
         <h1>Chat-大聪明</h1>
-        <el-tag type="success">Designed By 柴宁</el-tag>
+        <el-tag type="success">研究用途，请勿随意传播</el-tag>
         <br/>
       </div>
       <div class="online-person">
